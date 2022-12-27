@@ -3,10 +3,10 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import gym from "../../Assets/Projects/gym.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
+import keeper from "../../Assets/Projects/keeper.png";
+import res from "../../Assets/Projects/res.jpeg";
 import chatify from "../../Assets/Projects/mobo.png";
-import suicide from "../../Assets/Projects/suicide.png";
+import real from "../../Assets/Projects/real.png";
 import bitsOfCode from "../../Assets/Projects/cv.png";
 
 function Projects() {
@@ -54,7 +54,34 @@ function Projects() {
             />
           </Col>
 
-
+   <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={keeper}
+              isBlog={false}
+              title="Keeper Website"
+              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview."
+              ghLink="https://github.com/HH-pro"
+            />
+          </Col>
+            <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={res}
+              isBlog={false}
+              title="Resturant Website"
+              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview."
+              ghLink="https://github.com/HH-pro"
+            />
+          </Col>
+            <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={real}
+              isBlog={false}
+              title="Real-estate Website"
+              description="personal portfolio page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
+              ghLink="https://github.com/HH-pro"
+              demoLink="https://web-production-b8ba.up.railway.app/"
+            />
+          </Col>
         </Row>
       </Container>
     </Container>
