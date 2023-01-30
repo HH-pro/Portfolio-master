@@ -14,6 +14,7 @@ import {
   SiDjango,
   SiFirebase,
   SiNextdotjs,
+  SiWordpress,
 } from "react-icons/si";
 
 function Techstack() {
@@ -24,6 +25,9 @@ function Techstack() {
       </Col>
        <Col xs={4} md={2} className="tech-icons">
         <SiDjango />
+      </Col>
+       <Col xs={4} md={2} className="tech-icons">
+        <SiWordpress />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
